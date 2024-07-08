@@ -1,0 +1,8 @@
+# Handle line endings automatically for text files
+* text=auto
+
+# Specific rules for JavaScript files
+*.js text eol=lf
+
+# Ignore changes in node_modules
+node_modules/ -text
