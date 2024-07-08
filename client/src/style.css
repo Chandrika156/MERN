@@ -1,0 +1,30 @@
+.header {
+    background-color: #e2ec7b; /* Blue background color */
+    padding: 20px; /* Padding around the header */
+    display: flex; /* Flexbox layout for alignment */
+    justify-content: space-between; /* Space between the items */
+    align-items: center; /* Center items vertically */
+    color: white; /* White text color */
+}
+
+.header h3 {
+    margin: 0; /* Remove default margin */
+    font-size: 24px; /* Font size for the header title */
+}
+
+.header ul {
+    list-style: none; /* Remove default list styling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Flexbox layout for the list */
+    gap: 20px; /* Space between list items */
+}
+
+.header ul li {
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: color 0.3s; /* Smooth transition for text color */
+}
+
+.header ul li:hover {
+    color: #ffeb3b; /* Yellow text color on hover */
+}
